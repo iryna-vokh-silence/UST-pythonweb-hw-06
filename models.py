@@ -41,3 +41,4 @@ class Grade(Base):
     
     student = relationship("Student", back_populates="grades")
     subject = relationship("Subject", back_populates="grades")
+    
