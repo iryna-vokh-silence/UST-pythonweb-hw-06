@@ -1,0 +1,18 @@
+# Віртуальне середовище
+venv/
+ENV/
+env/
+
+# Тимчасові файли Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Системні файли Mac
+.DS_Store
+
+# Файли конфігурації (якщо будеш використовувати .env)
+.env
+
+# Логи Alembic
+migrations/versions/*.pyc
